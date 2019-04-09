@@ -1,0 +1,21 @@
+repos:
+-   repo: https://github.com/ambv/black
+    rev: stable
+    hooks:
+    - id: black
+      language_version: python3.6
+-   repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v1.2.3
+    hooks:
+    - id: trailing-whitespace
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: check-byte-order-marker
+    - id: check-merge-conflict
+    - id: debug-statements
+    - id: requirements-txt-fixer
+    - id: pretty-format-json
+      args:
+        - --autofix
+    - id: check-yaml
+    - id: flake8
