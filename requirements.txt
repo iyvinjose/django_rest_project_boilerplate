@@ -1,4 +1,4 @@
-django==2.2.20
+django==2.2.27
 django-extensions==2.1.6
 django-rest-swagger==2.2.0
 djangorestframework==3.11.2
